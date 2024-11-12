@@ -267,7 +267,7 @@ To run the server, simply lunch the application and the server will be automatic
 
 Watch the [demo video](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing) of the smart curtain system in action.
 
-[![Watch the video](../rapport/images/homepage.png)](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing)
+[![Watch the video](homepage.jpg)](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing)
 
 
 ---
