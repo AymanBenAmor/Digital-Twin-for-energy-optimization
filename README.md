@@ -261,6 +261,13 @@ This batch file will:
 2. Activate the virtual environment.
 3. Run the Django development server.
 
-To run the server, simply double-click the batch file or execute it from the terminal.
+To run the server, simply lunch the application and the server will be automatically run.
+
+## Demo Video
+
+Watch the [demo video](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing) of the smart curtain system in action.
+
+[![Watch the video](../rapport/images/homepage.png)](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing)
+
 
 ---

@@ -183,7 +183,7 @@ class _VirtualTwinPageState extends State<VirtualTwinPage> {
                   },
                   child: Text('OK'),
                   style: TextButton.styleFrom(
-                    primary: Colors.white, // Button text color
+                    backgroundColor: Colors.white, // Button text color
                     textStyle: TextStyle(fontSize: 20),
                   ),
                 ),
@@ -233,7 +233,7 @@ class _VirtualTwinPageState extends State<VirtualTwinPage> {
                   },
                   child: Text('OK'),
                   style: TextButton.styleFrom(
-                    primary: Colors.white, // Button text color
+                    backgroundColor: Colors.white, // Button text color
                     textStyle: TextStyle(fontSize: 25),
                   ),
                 ),

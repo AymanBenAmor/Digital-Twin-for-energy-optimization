@@ -39,8 +39,8 @@ class home extends StatelessWidget {
             },
             child: Text('Start'),
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(115, 59, 21, 163), // Button color
-              onPrimary: Color.fromARGB(255, 154, 227, 213), // Text color
+              backgroundColor: Color.fromARGB(115, 59, 21, 163), // Replaces `primary`
+              foregroundColor: Color.fromARGB(255, 154, 227, 213), // Replaces `onPrimary`
               side: BorderSide(color: Color.fromARGB(255, 154, 227, 213), width: 2), // Border color and width
               padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),
               textStyle: TextStyle(

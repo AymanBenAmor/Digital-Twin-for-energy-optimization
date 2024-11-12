@@ -268,9 +268,10 @@ class _VirtualTwinPageState extends State<VirtualTwinPageAdmin> {
                   },
                   child: Text('OK'),
                   style: TextButton.styleFrom(
-                    primary: Colors.white,
-                    textStyle: TextStyle(fontSize: 20),
-                  ),
+                foregroundColor: Colors.white, // Replaces `primary`
+                textStyle: TextStyle(fontSize: 20),
+              ),
+
                 ),
               ],
             ),
@@ -318,7 +319,7 @@ class _VirtualTwinPageState extends State<VirtualTwinPageAdmin> {
                   },
                   child: Text('OK'),
                   style: TextButton.styleFrom(
-                    primary: Colors.white,
+                    foregroundColor: Colors.white,
                     textStyle: TextStyle(fontSize: 25),
                   ),
                 ),

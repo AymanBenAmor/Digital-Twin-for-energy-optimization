@@ -235,8 +235,8 @@ class _AddUserPageState extends State<AddUserPage> {
                           onPressed: _addUser,
                           child: Text('Add User'),
                           style: ElevatedButton.styleFrom(
-                            primary: Color.fromARGB(115, 59, 21, 163),
-                            onPrimary: Color.fromARGB(255, 154, 227, 213),
+                            backgroundColor: Color.fromARGB(115, 59, 21, 163), // Replaces `primary`
+                            foregroundColor: Color.fromARGB(255, 154, 227, 213), // Replaces `onPrimary`
                             side: BorderSide(color: Color.fromARGB(255, 154, 227, 213), width: 2),
                             padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),
                             textStyle: TextStyle(

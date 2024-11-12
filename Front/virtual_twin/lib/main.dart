@@ -8,29 +8,34 @@ import 'package:virtual_twin/homePage.dart';
 
 void main() async {
   runApp(MyApp());
-startDjangoServer();  
+  runBatchFile() ;
+ 
 }
 
+void runBatchFile() async {
+    try {
+      // Path to your batch file
+      String pathToBatchFile = 'D:\\cours_II2\\S2\\stage\\Application\\run_server.bat';
 
-Future<void> startDjangoServer() async {
-  // Adjust the path to your batch file
-  final batchFilePath = 'C:\\path\\to\\your\\start_django_server.bat';
+      // Run the batch file
+      ProcessResult result = await Process.run(pathToBatchFile, []);
 
-  // Start the server in a background process
-  Process.start('cmd.exe', ['/c', batchFilePath]).then((Process process) {
-    process.stdout.transform(SystemEncoding().decoder).listen((data) {
-      print(data);
-    });
+      // Print the output of the batch file
+      print('Exit code: ${result.exitCode}');
+      print('Standard Output: ${result.stdout}');
+      print('Error Output: ${result.stderr}');
 
-    process.stderr.transform(SystemEncoding().decoder).listen((data) {
-      print('Error: $data');
-    });
+      // Optionally, show a message dialog
+      if (result.exitCode == 0) {
+        print('Batch file executed successfully.');
+      } else {
+        print('Error executing batch file.');
+      }
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
 
-    process.exitCode.then((exitCode) {
-      print('Process exited with code $exitCode');
-    });
-  });
-}
 
 
 class MyApp extends StatelessWidget {
