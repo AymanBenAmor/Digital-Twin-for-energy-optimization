@@ -269,5 +269,8 @@ Watch the [demo video](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1
 
 [![Watch the video](homepage.jpg)](https://drive.google.com/file/d/1TByyJViEFk3Ir35nVbuf0fx1i7I-YgFn/view?usp=sharing)
 
+![3D Character Animation](tenor.gif)
+
+
 
 ---
