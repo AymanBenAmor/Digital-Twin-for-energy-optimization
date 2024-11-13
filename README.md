@@ -1,8 +1,8 @@
 
 ```markdown
-![3D Character Animation](tenor.gif)
-# Project: Thermal Simulation and Weather Data API
 
+# Project: Thermal Simulation and Weather Data API
+![3D Character Animation](tenor.gif)
 This project provides an API to handle user authentication, calculate thermal dynamics based on external environmental data, and fetch weather-related information such as temperature, humidity, and solar radiation. The application specifically calculates the time the air conditioner can be turned off while maintaining a comfortable temperature level, optimizing energy consumption in the process. The project uses Django and integrates with external APIs for weather and solar radiation data.
 
 ## Table of Contents
